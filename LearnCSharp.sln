@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Web Browser", "Simple Web Browser\Simple Web Browser.csproj", "{CF9B07C0-0E3F-410C-882C-274201AEFAD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TCP-IP Server-Client", "TCP-IP Server-Client", "{439F0CA1-DE95-4177-B500-C15BC17C9023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{40197CC8-D7FE-464B-8906-7F68BCFD382D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,20 @@ Global
 		{CF9B07C0-0E3F-410C-882C-274201AEFAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF9B07C0-0E3F-410C-882C-274201AEFAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF9B07C0-0E3F-410C-882C-274201AEFAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40197CC8-D7FE-464B-8906-7F68BCFD382D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40197CC8-D7FE-464B-8906-7F68BCFD382D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40197CC8-D7FE-464B-8906-7F68BCFD382D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40197CC8-D7FE-464B-8906-7F68BCFD382D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A1ACE83-F261-42BE-9B93-4280D3A6FF62} = {439F0CA1-DE95-4177-B500-C15BC17C9023}
+		{40197CC8-D7FE-464B-8906-7F68BCFD382D} = {439F0CA1-DE95-4177-B500-C15BC17C9023}
 	EndGlobalSection
 EndGlobal
