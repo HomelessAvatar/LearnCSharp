@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Web Browser", "Simpl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TCP-IP Server-Client", "TCP-IP Server-Client", "{439F0CA1-DE95-4177-B500-C15BC17C9023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "TCP-IP Server-Client\Client\Client.csproj", "{3A1ACE83-F261-42BE-9B93-4280D3A6FF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{40197CC8-D7FE-464B-8906-7F68BCFD382D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "TCP-IP Server-Client\Server\Server.csproj", "{40197CC8-D7FE-464B-8906-7F68BCFD382D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
